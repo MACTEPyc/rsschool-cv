@@ -1,1 +1,1 @@
-# rsschool-cv
+https://MACTEPyc.github.io/rsschool-cv/cv
