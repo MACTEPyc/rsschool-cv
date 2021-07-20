@@ -22,4 +22,4 @@
 
 6.  Higher education: Birsky State Pedagogical Institute/faculty of Physics and Mathematics, Second higher education: Udmurt State University/development of oil and gas fields
 7.  Certificate "JavaScript Tutorial course" by Solo Learn  
-8.  Beginner 
+8.  Beginner in English
