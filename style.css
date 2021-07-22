@@ -1,0 +1,90 @@
+body {
+  width: 892px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 149px;
+  margin: 30px auto;
+  font-family: Arial, Sans-serif;
+}
+
+.name {
+  width: 290px;
+}
+
+.my-name {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ED048B;
+}
+
+.position {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #5F158E;
+}
+
+.contacts {
+  width: 250px;
+  border-left: 1px solid #D9D9D9;
+  /* line-height: 1.5; */
+}
+
+.description {
+  width: 432px;
+  margin: auto;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+sub-main-1 {
+  width: 50%;
+}
+
+sub-main-2 {
+  width: 50%;
+}
+
+.mark-red {
+  font-weight: bold;
+  color: #ED048B;
+}
+
+.mark-blue {
+  font-weight: bold;
+  color: #5F158E;
+}
+
+.over-header {
+  width: 678px;
+  height: 32px;
+  background: linear-gradient(to right, #EC008C, #FC6767);
+  border-radius: 0 0 15px 15px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  /* padding-left: 0; */
+}
+
+li img {
+  vertical-align: middle;
+  margin: 4px;
+}
+
+.line {
+  width: 300px;
+  margin: auto;
+  border-bottom: 1px solid #D9D9D9;
+}
