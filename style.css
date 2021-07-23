@@ -1,4 +1,7 @@
 body {
+  margin: 0;
+}
+.wrapper {
   width: 892px;
   margin: auto;
   font-size: 14px;
@@ -7,7 +10,7 @@ body {
 .about {
   display: flex;
   justify-content: space-between;
-  width: 678px;
+  width: 750px;
   height: 149px;
   margin: 30px auto;
   font-family: "IBM Plex Mono", monospace;
@@ -30,13 +33,12 @@ body {
 }
 
 .contacts {
-  width: 300px;
+  width: 270px;
   border-left: 1px solid #d9d9d9;
-  /* line-height: 1.5; */
 }
 
 .description {
-  width: 432px;
+  width: 600px;
   margin: auto;
   text-align: center;
 }
@@ -89,9 +91,9 @@ main {
   margin: auto;
 }
 
-ul {
+.contacts ul {
   list-style: none;
-  /* padding-left: 0; */
+  padding-left: 20px;
 }
 
 li img,
@@ -116,7 +118,9 @@ li img,
 }
 
 .experience,
-.education {
+.skills,
+.education,
+.projects {
   padding-bottom: 5px;
   border-bottom: 1px solid #d9d9d9;
 }
