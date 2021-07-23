@@ -1,17 +1,16 @@
 body {
   width: 892px;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
 
 .about {
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  width: 678px;
   height: 149px;
   margin: 30px auto;
-  font-family: Arial, Sans-serif;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .name {
@@ -21,18 +20,18 @@ body {
 .my-name {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #ED048B;
+  color: #ed048b;
 }
 
 .position {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #5F158E;
+  color: #5f158e;
 }
 
 .contacts {
-  width: 250px;
-  border-left: 1px solid #D9D9D9;
+  width: 300px;
+  border-left: 1px solid #d9d9d9;
   /* line-height: 1.5; */
 }
 
@@ -43,33 +42,50 @@ body {
 }
 
 main {
+  width: 830px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.info {
   display: flex;
   justify-content: space-around;
 }
 
-sub-main-1 {
-  width: 50%;
+.footer {
+  width: 432px;
+  margin: auto;
+  text-align: center;
 }
 
-sub-main-2 {
+.sub-main {
   width: 50%;
+  margin: 10px;
 }
 
 .mark-red {
   font-weight: bold;
-  color: #ED048B;
+  color: #ed048b;
 }
 
 .mark-blue {
   font-weight: bold;
-  color: #5F158E;
+  color: #5f158e;
 }
 
 .over-header {
   width: 678px;
   height: 32px;
-  background: linear-gradient(to right, #EC008C, #FC6767);
+  background: linear-gradient(to right, #ec008c, #fc6767);
   border-radius: 0 0 15px 15px;
+  margin: auto;
+}
+
+.under-footer {
+  width: 678px;
+  height: 32px;
+  background: linear-gradient(to right, #da22ff, #9733ee);
+  border-radius: 15px 15px 0 0;
   margin: auto;
 }
 
@@ -78,13 +94,29 @@ ul {
   /* padding-left: 0; */
 }
 
-li img {
+li img,
+.footer img {
   vertical-align: middle;
   margin: 4px;
+}
+
+.link {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.logo-rsschool {
+  height: 21px;
 }
 
 .line {
   width: 300px;
   margin: auto;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.experience,
+.education {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d9d9d9;
 }
