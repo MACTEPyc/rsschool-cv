@@ -1,17 +1,20 @@
 body {
   margin: 0;
 }
+
 .wrapper {
-  width: 892px;
+  min-width: 320px;
+  max-width: 892px;
   margin: auto;
   font-size: 14px;
 }
 
 .about {
   display: flex;
-  justify-content: space-between;
-  width: 750px;
-  height: 149px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 750px;
+  min-height: 149px;
   margin: 30px auto;
   font-family: "IBM Plex Mono", monospace;
 }
@@ -38,30 +41,32 @@ body {
 }
 
 .description {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
   text-align: center;
 }
 
 main {
-  width: 830px;
+  min-width: 320px;
+  max-width: 830px;
   margin: auto;
   font-family: "Poppins", sans-serif;
 }
 
 .info {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer {
-  width: 432px;
+  max-width: 432px;
   margin: auto;
   text-align: center;
 }
 
 .sub-main {
-  width: 50%;
+  max-width: 350px;
   margin: 10px;
 }
 
@@ -76,7 +81,8 @@ main {
 }
 
 .over-header {
-  width: 678px;
+  min-width: 320px;
+  max-width: 678px;
   height: 32px;
   background: linear-gradient(to right, #ec008c, #fc6767);
   border-radius: 0 0 15px 15px;
@@ -84,7 +90,8 @@ main {
 }
 
 .under-footer {
-  width: 678px;
+  min-width: 320px;
+  max-width: 678px;
   height: 32px;
   background: linear-gradient(to right, #da22ff, #9733ee);
   border-radius: 15px 15px 0 0;
@@ -112,7 +119,7 @@ li img,
 }
 
 .line {
-  width: 300px;
+  max-width: 300px;
   margin: auto;
   border-bottom: 1px solid #d9d9d9;
 }
