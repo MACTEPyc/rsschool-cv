@@ -14,9 +14,23 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <script>
+      function view(n) {
+        style = document.getElementById(n).style;
+        style.display = style.display == "block" ? "none" : "block";
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
   <body>
-    <div class="wrapper"> 
+    <div class="wrapper">
       <header class="header">
         <div class="over-header"></div>
         <div class="about">
@@ -143,21 +157,38 @@
             <section class="projects">
               <h3 class="mark-red">Projects</h3>
               <h4 class="mark-blue">
-                <a
-                  href="https://github.com/MACTEPyc/rsschool-cv/tree/rsschool-cv-html"
-                  target="_blank"
+                <a href="#hidden1" onclick="view('hidden1'); return false"
                   >Sample code</a
                 >
-                <a
-                  class="link"
-                  href="https://github.com/MACTEPyc/rsschool-cv/blob/rsschool-cv-html/index.html"
-                  target="_blank"
-                  >Link</a
-                >
+                <div id="hidden1" style="display: none">
+                  <pre><code class="language-javascript">function highAndLow(numbers) { 
+  let arr = numbers.split(' '); 
+  arr.sort((a, b) => a - b);
+  return `${arr[arr.length - 1]} ${arr[0]}`;
+}</code></pre>
+                </div>
               </h4>
               <p>
-                As an example, so far only my first current project on this
-                Rolling Scopes School JavaScript course (JS/FE Pre-School).
+                For example, there are projects completed in the course
+                JavaScript Rolling Scopes School - Stage 0 (JS/FE Pre-School):
+                <a
+                  class="link"
+                  href="https://rolling-scopes-school.github.io/mactepyc-JSFEPRESCHOOL/museum/"
+                  target="_blank"
+                  >Link-1</a
+                >,
+                <a
+                  class="link"
+                  href="https://rolling-scopes-school.github.io/mactepyc-JSFEPRESCHOOL/drum-kit/"
+                  target="_blank"
+                  >Link-2</a
+                >,
+                <a
+                  class="link"
+                  href="https://rolling-scopes-school.github.io/mactepyc-JSFEPRESCHOOL/photofilter/"
+                  target="_blank"
+                  >Link-3</a
+                >.
               </p>
             </section>
             <section class="language">
