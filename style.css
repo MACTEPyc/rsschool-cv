@@ -209,7 +209,7 @@ main {
 }
 
 .sub-main {
-  max-width: 350px;
+  max-width: 315px;
   margin: 10px;
 }
 
@@ -253,8 +253,9 @@ li img,
 }
 
 .link {
-  margin-left: 10px;
-  font-size: 12px;
+  display: block;
+  /*margin-left: 10px;
+  font-size: 12px;*/
 }
 
 .logo-rsschool {
