@@ -33,6 +33,18 @@
     <div class="wrapper">
       <header class="header">
         <div class="over-header"></div>
+        <nav class="menyu-navigatsig">
+          <input class="navigation-btn" type="checkbox" id="navigation-btn" />
+          <label class="navigation-icon" for="navigation-btn"><span class="categorua"></span></label>
+          <ul class="navigation">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#soft-skills">Soft skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#language">Language</a></li>
+          </ul>
+        </nav>
         <div class="about">
           <div class="name">
             <h1 class="my-name">Rustam Davletgareev</h1>
@@ -81,7 +93,7 @@
         <div class="line"></div>
         <div class="info">
           <div class="sub-main">
-            <section class="experience">
+            <section class="experience" id="experience">
               <h3 class="mark-red">Experience</h3>
               <h4 class="mark-blue">Computer science teacher at school</h4>
               <p>
@@ -103,7 +115,7 @@
                 equipment.
               </p>
             </section>
-            <section class="skills">
+            <section class="skills" id="skills">
               <h3 class="mark-red">Skills</h3>
               <ul>
                 <li>JavaScript</li>
@@ -114,7 +126,7 @@
                 <li>Basic</li>
               </ul>
             </section>
-            <section class="soft-skills">
+            <section class="soft-skills" id="soft-skills">
               <h3 class="mark-red">Soft Skills</h3>
               <ul>
                 <li>Teamwork</li>
@@ -127,7 +139,7 @@
             </section>
           </div>
           <div class="sub-main">
-            <section class="education">
+            <section class="education" id="education">
               <h3 class="mark-red">Education</h3>
               <h4 class="mark-blue">
                 BirSPI | Faculty of Physics and Mathematics | Teacher of Physics
@@ -154,20 +166,14 @@
                 Certificate of the JavaScript Tutorial course
               </p>
             </section>
-            <section class="projects">
+            <section class="projects" id="projects">
               <h3 class="mark-red">Projects</h3>
-              <h4 class="mark-blue">
-                <a href="#hidden1" onclick="view('hidden1'); return false"
-                  >Sample code</a
-                >
-              </h4>
-              <div id="hidden1" style="display: none">
+              <h4 class="mark-blue">Sample code:</h4>
                 <pre><code class="language-javascript">function highAndLow(numbers) { 
 let arr = numbers.split(' '); 
 arr.sort((a, b) => a - b);
 return `${arr[arr.length - 1]} ${arr[0]}`;
 }</code></pre>
-              </div>
               <p>
                 For example, there are projects completed in the course
                 JavaScript Rolling Scopes School - Stage 0 (JS/FE Pre-School):
@@ -191,7 +197,7 @@ return `${arr[arr.length - 1]} ${arr[0]}`;
                 >.
               </p>
             </section>
-            <section class="language">
+            <section class="language" id="language">
               <h3 class="mark-red">Language</h3>
               <p>
                 <b>
