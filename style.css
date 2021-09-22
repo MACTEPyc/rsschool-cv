@@ -209,7 +209,8 @@ main {
 }
 
 .sub-main {
-  max-width: 315px;
+  min-width: 315px;
+  max-width: 45%;
   margin: 10px;
 }
 
