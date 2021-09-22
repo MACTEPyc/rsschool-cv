@@ -14,17 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <script>
-      function view(n) {
-        style = document.getElementById(n).style;
-        style.display = style.display == "block" ? "none" : "block";
-      }
-    </script>
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
-    />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <link rel="stylesheet" href="./lib/highlight/monokai-sublime.min.css" />
+    <script src="./lib/highlight/highlight.min.js"></script>
     <script>
       hljs.initHighlightingOnLoad();
     </script>
@@ -179,12 +170,6 @@
             </section>
             <section class="projects" id="projects">
               <h3 class="mark-red">Projects</h3>
-              <h4 class="mark-blue">Sample code:</h4>
-              <pre><code class="language-javascript">function highAndLow(numbers) { 
-let arr = numbers.split(' '); 
-arr.sort((a, b) => a - b);
-return `${arr[arr.length - 1]} ${arr[0]}`;
-}</code></pre>
               <p>
                 For example, there are projects completed in the course
                 JavaScript Rolling Scopes School - Stage 0 (JS/FE Pre-School):
@@ -194,7 +179,7 @@ return `${arr[arr.length - 1]} ${arr[0]}`;
                   target="_blank"
                   ><img src="./img/Museum_resize.png" alt="Museum"
                 /></a>
-                <b>Museum</b>: Exhibition at the Louvre. <br /><b
+                <b>Museum</b> - exhibition at the Louvre. <br /><b
                   >List of technologies used</b
                 >: Exporting styles and graphics from Figma; Connecting fonts;
                 Using flexbox; Navigation elements; Card elements; Interactive
@@ -207,7 +192,7 @@ return `${arr[arr.length - 1]} ${arr[0]}`;
                   target="_blank"
                   ><img src="./img/Drum-Kit_resize.png" alt="Drum Kit"
                 /></a>
-                <b>Drum Kit</b>: Musical instrument. <br /><b
+                <b>Drum Kit</b> - musical instrument. <br /><b
                   >List of technologies used</b
                 >: DOM, Audio
               </p>
@@ -218,10 +203,16 @@ return `${arr[arr.length - 1]} ${arr[0]}`;
                   target="_blank"
                   ><img src="./img/Photofilter_resize.png" alt="Photofilter"
                 /></a>
-                <b>Photofilter</b>: photo editor that allows you to edit the
+                <b>Photofilter</b> - photo editor that allows you to edit the
                 image by applying various properties and filters to them.
                 <br /><b>List of technologies used</b>: DOM, CSS variables.
               </p>
+              <h4 class="mark-blue">Sample code:</h4>
+              <pre><code class="js">function highAndLow(numbers) { 
+  let arr = numbers.split(' '); 
+  arr.sort((a, b) => a - b);
+  return `${arr[arr.length-1]} ${arr[0]}`;
+}</code></pre>
             </section>
           </div>
         </div>
