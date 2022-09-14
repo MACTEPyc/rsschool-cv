@@ -1,7 +1,7 @@
 1.  Rustam Davletgareev  
 2.  Discord: Rustam Davletgareev(@MACTEPyc), e-mail: MACTEPyc@gmail.com  
-3.  I set out to get into IT. In the past, I worked as a computer science teacher. That is, there is initial knowledge in information technologies, and in the future there was a great desire to go in this direction.  
-4.  Programming languages: BASIC, Pascal, Delphi, JavaScript  
+3.  I have a great desire to acquire new knowledge, a desire to learn web development. And then get a job in this direction  
+4.  Programming languages: BASIC, Pascal, JavaScript  
 5.  Code examples:
 
     ```html
@@ -20,6 +20,6 @@
     </html>
     ```
 
-6.  Higher education: Birsky State Pedagogical Institute/faculty of Physics and Mathematics, Second higher education: Udmurt State University/development of oil and gas fields
-7.  Certificate "JavaScript Tutorial course" by Solo Learn  
+6.  No work experience.
+7.  Higher education: "Teacher of physics and computer science" Birsky State Pedagogical Institute/faculty of Physics and Mathematics. Certificate:  "JS/FE PRE-SCHOOL (JAVASCRIPT)" THE ROLLING SCOPES SCHOOL
 8.  Beginner in English
